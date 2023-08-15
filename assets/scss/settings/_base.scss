@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+*, body {
+  font-family: 'Bruno Ace SC', serif;
+  line-height: 1.5;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}

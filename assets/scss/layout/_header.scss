@@ -1,0 +1,31 @@
+header{
+  padding-top: 40px;
+
+  background-color: #000;
+
+  font-family: 'Bruno Ace SC', serif;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.5;
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+
+    li {
+      margin-right: 61px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+}

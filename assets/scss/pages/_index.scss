@@ -1,3 +1,39 @@
-.index-title {
-  font-size: 100px;
+.banner {
+  background-color: #000;
+  color: #fff;
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .avatar {
+    width: 636px;
+    height: 848px;
+    margin-right: 24px;
+  }
+  .title {
+    display: flex;
+    flex-direction: column;
+    width: 636px;
+    h2 {
+      font-size: 64px;
+    }
+    h1 {
+      color: #00FFA3;
+      font-size: 128px;
+      text-align: end;
+    }
+    a {
+      align-self: flex-end;
+      display: flex;
+      align-content: center;
+      padding: 12px 24px;
+      border: 0px;
+      border-radius: 32px;
+      background-color: #fff;
+      .icon {
+        width: 24px;
+        height: 24px;
+      }
+    }
+  }
 }

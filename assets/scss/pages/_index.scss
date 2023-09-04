@@ -37,3 +37,28 @@
     }
   }
 }
+
+.introduction {
+  background-image: url("../images/background-img.png");
+  padding: 160px 0;
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  .left-content {
+    width: 526px;
+    color: #fff;
+    font-size: 24px;
+    h2 {
+      font-size: 64px;
+    }
+    .image-box {
+      margin-top: 32px;
+    }
+  }
+  .right-content {
+    img {
+      margin-left: 24px;
+    }
+  }
+}

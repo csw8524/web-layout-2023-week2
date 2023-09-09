@@ -62,3 +62,69 @@
     }
   }
 }
+
+.about-me {
+  padding: 160px 0;
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .left-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 636px;
+    height: 320px;
+    margin-right: 134px;
+    .card {
+      width: 306px;
+      height: 148px;
+    }
+    h2, h3 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 16px;
+    }
+  }
+  .right-content {
+    width: 526px;
+    height: 420px;
+    h2 {
+      font-size: 64px;
+    }
+    p {
+      font-size: 24px;
+    }
+  }
+}
+.contact-me {
+  padding: 96px 0;
+  background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  h2 {
+    margin-right: 16px;
+    color: #FFF;
+    font-size: 64px;
+  }
+  .trending-flat {
+    width: 100px;
+    height: 100px;
+    margin-right: 113px;
+  }
+  .app-icon {
+    width: 162px;
+    height: 162px;
+    margin-right: 20px;
+  }
+  .app-icon:hover {
+    box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.9);
+    border-radius: 40px;
+  }
+}

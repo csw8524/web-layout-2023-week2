@@ -128,3 +128,63 @@
     border-radius: 40px;
   }
 }
+.my-projects {
+  padding: 160px 0;
+  h2 {
+    width: 746px;
+    font-size: 64px;
+    margin-left: auto;
+  }
+  p {
+    font-size: 16px;
+  }
+  .rectangle10 {
+    width: 416px;
+    height: 530px;
+    margin-right: 24px;
+  }
+  
+  .content {
+    display: flex;
+  }
+  .information {
+    display: flex;
+    width: 856px;
+    margin-bottom: 28px;
+    .rectangle15 {
+      width: 196px;
+      height: 196px;
+      margin-right: 24px;
+    }
+  }
+  .inf-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    a {
+      box-sizing: border-box;
+      display: flex;
+      width: 185px;
+      height: 48px;
+      padding: 12px 24px;
+      border-radius: 32px;
+      background-color: #000;
+      color: #fff;
+      font-size: 16px;
+    }
+    img {
+      width: 24px;
+      height: 24px;
+      margin-left: 4px;
+    }
+  }
+  .rectangle14 {
+    width: 306px;
+    height: 306px;
+    margin-right: 24px;
+  }
+  .rectangle29 {
+    width: 526px;
+    height: 306px;
+  }
+}
